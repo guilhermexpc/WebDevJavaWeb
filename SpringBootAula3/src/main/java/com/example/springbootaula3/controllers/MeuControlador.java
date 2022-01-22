@@ -13,9 +13,9 @@ public class MeuControlador {
         return "Home Route...";
     }
 
-    @RequestMapping("/formcad") // Responde pela rota Form
-    public String formCad() {
-        return "formCad";
+    @RequestMapping("/testepage") // Responde pela rota Form
+    public String testepage() {
+        return "testepage";
     }
 
 }
